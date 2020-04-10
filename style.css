@@ -1,0 +1,138 @@
+img {
+  display: flex;
+  width: auto;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.header-text {
+  position: relative;
+  font-family: 'Abril Fatface';
+  color: #222;
+  display: flex;
+}
+
+p {
+  position: absolute;
+  bottom: 95px;
+  left: 320px;
+  font-size: 35px;
+}
+
+p2 {
+  position: absolute;
+  font-size: 70px;
+  bottom: 50px;
+  left: 320px;
+  display: flex;
+}
+
+.body-text {
+  margin-top: 50px;
+  margin-left: 320px;
+  margin-right: 320px;
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+  line-height: 30px;
+  color: #222;
+}
+
+ul {
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+  line-height: 30px;
+  color: #222;
+  margin-left: 320px;
+  margin-right: 320px;
+  list-style-type: square;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+}
+
+blockquote {
+  display: flex;
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  justify-content: center;
+  background: #222;
+  color: white;
+  width: 740px;
+  padding: 45px;
+  margin-top: 30px;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 140px;
+  position: absolute;
+  left: 260px;
+  display: flex;
+  justify-content: center;
+  margin-top: -82px;
+}
+
+h1 {
+  font-family: 'Josefin Sans';
+  font-size: 25px;
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+h2 {
+  font-family: 'Josefin Sans';
+  font-size: 23px;
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 35px;
+  color: #222;
+}
+
+.body-text2 {
+  font-family: 'Josefin Sans';
+  font-size: 15x;
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 35px;
+  line-height: 25px;
+}
+
+h3 {
+  font-family: 'Merriweather';
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -30px;
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.ul2 {
+  list-style-position: outside;
+  font-family: 'Josefin Sans';
+  font-size: 15px;
+  line-height: 25px;
+  color: #222;
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 35px;
+  list-style-type: square;
+}
+
+.h_line {
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 50px;
+  height: 3px;
+  background: #222;
+}
